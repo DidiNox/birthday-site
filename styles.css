@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: "Style Script", cursive;
+    background: linear-gradient(#fecab4, #85b4a2);
+    color: #778899;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 220px;
+    border-radius: 50%;
+    border: 4px outset #ffcaa8;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #ffcfc1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-wish {
+    margin: 0;
+    background: #ffcfc1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 60px;
+}
+
+.gift-title {
+    margin-bottom: 15px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 10px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/bday.webp");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/bless.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/lovely.webp");
+}
+
+#gift-img-genius {
+    width: 350px;
+    height: 200px;
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/wonder.webp");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/yippy.webp");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #e6e6fa;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
